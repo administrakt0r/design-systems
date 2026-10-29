@@ -1,0 +1,64 @@
+/**
+ * Design System: Slack (slack)
+ * Source: https://slack.com/
+ * Description: Conversational AI work-platform identity built from aubergine action color, Salesforce-derived headline typography, dense rounded product UI screenshots, bento feature modules, and a warm off-white editorial rhythm.
+ */
+
+:root[data-theme="slack"],
+:root {
+  /* Colors */
+  --color-primary: #611F69;
+  --color-accent: #4A154B;
+  --color-accentHover: #481A54;
+  --color-accentPressed: #2E0039;
+  --color-ink: #1D1C1D;
+  --color-body: #454245;
+  --color-muted: #696969;
+  --color-canvas: #FFFFFF;
+  --color-surface: #F5F4F5;
+  --color-surfaceAlt: #F4EDE4;
+  --color-border: #EBEAEB;
+  --color-borderStrong: #DBD9DB;
+  --color-link: #1264A3;
+  --color-success: #007A5A;
+  --color-warning: #F2C744;
+  --color-error: #E01E5A;
+  --color-slackBlue: #36C5F0;
+  --color-slackGreen: #2EB67D;
+  --color-slackYellow: #ECB22E;
+  --color-slackRed: #E01E5A;
+  --color-lavenderSurface: #F9F0FF;
+  --color-lavenderTint: #F9EDFF;
+  --color-lavenderBorder: #EABDFB;
+  --color-productBlueSurface: #E8F5FA;
+  --color-productBlueInk: #0B4C8C;
+  --color-aiPurple: #83388A;
+  --color-aiViolet: #A350AF;
+  --color-footerBg: #1D1C1D;
+  --color-on-primary: #FFFFFF;
+  --color-on-dark: #FFFFFF;
+  --color-on-light: #1D1C1D;
+
+  /* Typography */
+  --font-display: {'fontFamily': 'Salesforce-Avant-Garde, Slack-Larsseit, Helvetica Neue, Helvetica, Arial, sans-serif', 'fontSize': '64px', 'fontWeight': 700, 'lineHeight': 1.0, 'letterSpacing': '-0.02em'};
+  --font-hero: {'fontFamily': 'Salesforce-Avant-Garde, Slack-Larsseit, Helvetica Neue, Helvetica, Arial, sans-serif', 'fontSize': '56px', 'fontWeight': 700, 'lineHeight': 1.05, 'letterSpacing': '-0.018em'};
+  --font-headline-lg: {'fontFamily': 'Salesforce-Avant-Garde, Slack-Larsseit, Helvetica Neue, Helvetica, Arial, sans-serif', 'fontSize': '48px', 'fontWeight': 700, 'lineHeight': 1.08, 'letterSpacing': '-0.015em'};
+  --font-title-lg: {'fontFamily': 'Salesforce-Avant-Garde, Slack-Larsseit, Helvetica Neue, Helvetica, Arial, sans-serif', 'fontSize': '32px', 'fontWeight': 700, 'lineHeight': 1.16, 'letterSpacing': '-0.01em'};
+  --font-title-md: {'fontFamily': 'Salesforce-Sans, Slack-Circular-Pro, Helvetica Neue, Helvetica, Arial, sans-serif', 'fontSize': '24px', 'fontWeight': 700, 'lineHeight': 1.25, 'letterSpacing': '-0.004em'};
+  --font-title-sm: {'fontFamily': 'Salesforce-Sans, Slack-Circular-Pro, Helvetica Neue, Helvetica, Arial, sans-serif', 'fontSize': '18px', 'fontWeight': 700, 'lineHeight': 1.32, 'letterSpacing': '0em'};
+  --font-body: {'fontFamily': 'Salesforce-Sans, Slack-Circular-Pro, Helvetica Neue, Helvetica, Arial, sans-serif', 'fontSize': '18px', 'fontWeight': 400, 'lineHeight': 1.5, 'letterSpacing': '0em'};
+  --font-body-sm: {'fontFamily': 'Salesforce-Sans, Slack-Circular-Pro, Helvetica Neue, Helvetica, Arial, sans-serif', 'fontSize': '15px', 'fontWeight': 400, 'lineHeight': 1.45, 'letterSpacing': '0em'};
+  --font-label: {'fontFamily': 'Salesforce-Sans, Slack-Circular-Pro, Helvetica Neue, Helvetica, Arial, sans-serif', 'fontSize': '13px', 'fontWeight': 700, 'lineHeight': 1.2, 'letterSpacing': '0.04em'};
+  --font-button: {'fontFamily': 'Salesforce-Sans, Slack-Circular-Pro, Helvetica Neue, Helvetica, Arial, sans-serif', 'fontSize': '14px', 'fontWeight': 700, 'lineHeight': 1.2, 'letterSpacing': '0.03em'};
+  --font-caption: {'fontFamily': 'Salesforce-Sans, Slack-Circular-Pro, Helvetica Neue, Helvetica, Arial, sans-serif', 'fontSize': '13px', 'fontWeight': 400, 'lineHeight': 1.45, 'letterSpacing': '0em'};
+  --font-legal: {'fontFamily': 'Salesforce-Sans, Slack-Circular-Pro, Helvetica Neue, Helvetica, Arial, sans-serif', 'fontSize': '12px', 'fontWeight': 400, 'lineHeight': 1.45, 'letterSpacing': '0em'};
+  --font-code: {'fontFamily': 'Monaco, Consolas, Liberation Mono, Menlo, monospace', 'fontSize': '14px', 'fontWeight': 400, 'lineHeight': 1.5, 'letterSpacing': '0em'};
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-xxl: 24px;
+  --radius-pill: 9999px;
+}

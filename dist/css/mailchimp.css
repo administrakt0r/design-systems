@@ -1,0 +1,65 @@
+/**
+ * Design System: Mailchimp (mailchimp)
+ * Source: https://mailchimp.com/
+ * Description: Warm editorial marketing system with Cavendish Yellow action surfaces, Peppercorn ink, Means Web headlines, Graphik UI, tactile pill CTAs, and flat pricing/product tables.
+ */
+
+:root[data-theme="mailchimp"],
+:root {
+  /* Colors */
+  --color-primary: #FFE01B;
+  --color-accent: #007C89;
+  --color-accentHover: #004E56;
+  --color-accentPressed: #001D28;
+  --color-ink: #231E15;
+  --color-body: #403B3B;
+  --color-muted: #575757;
+  --color-canvas: #FFFFFF;
+  --color-surface: #FFFFFF;
+  --color-surfaceAlt: #F5F5F5;
+  --color-border: #DBD9D2;
+  --color-borderStrong: #BCBAB8;
+  --color-link: #231E15;
+  --color-success: #00C350;
+  --color-warning: #E7B75F;
+  --color-error: #A73205;
+  --color-focus: #4BC4C2;
+  --color-peppercorn: #231E15;
+  --color-oyster: #39352C;
+  --color-kale: #007C89;
+  --color-kaleCharred: #001D28;
+  --color-cavendish: #FFE01B;
+  --color-coconut: #FFFFFF;
+  --color-jasmine: #F5F5F5;
+  --color-cornflower: #D2EBFF;
+  --color-cucumber: #EDFFCC;
+  --color-radish: #FFCCD8;
+  --color-yam: #FFDBCC;
+  --color-squash: #EBE1CD;
+  --color-plum: #B42855;
+  --color-plumInk: #692340;
+  --color-plumCream: #FBEECA;
+  --color-on-primary: #231E15;
+  --color-on-dark: #FFFFFF;
+
+  /* Typography */
+  --font-display: {'fontFamily': 'Means Web, Georgia, Times, Times New Roman, serif', 'fontSize': '64px', 'fontWeight': 400, 'lineHeight': 1.13, 'letterSpacing': '-0.0625rem'};
+  --font-hero: {'fontFamily': 'Means Web, Georgia, Times, Times New Roman, serif', 'fontSize': '64px', 'fontWeight': 400, 'lineHeight': 1.2, 'letterSpacing': '-0.075rem'};
+  --font-headline-lg: {'fontFamily': 'Means Web, Georgia, Times, Times New Roman, serif', 'fontSize': '48px', 'fontWeight': 400, 'lineHeight': 1.0, 'letterSpacing': '-0.0625rem'};
+  --font-title-lg: {'fontFamily': 'Means Web, Georgia, Times, Times New Roman, serif', 'fontSize': '40px', 'fontWeight': 400, 'lineHeight': 1.2, 'letterSpacing': '-0.03125rem'};
+  --font-title-md: {'fontFamily': 'Means Web, Georgia, Times, Times New Roman, serif', 'fontSize': '32px', 'fontWeight': 400, 'lineHeight': 1.25, 'letterSpacing': '0'};
+  --font-title-sm: {'fontFamily': 'Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif', 'fontSize': '24px', 'fontWeight': 400, 'lineHeight': 1.33, 'letterSpacing': '-0.02rem'};
+  --font-body: {'fontFamily': 'Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif', 'fontSize': '16px', 'fontWeight': 400, 'lineHeight': 1.75, 'letterSpacing': '0'};
+  --font-label: {'fontFamily': 'Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif', 'fontSize': '13px', 'fontWeight': 500, 'lineHeight': 1.25, 'letterSpacing': '0'};
+  --font-button: {'fontFamily': 'Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif', 'fontSize': '13px', 'fontWeight': 500, 'lineHeight': 1.5, 'letterSpacing': '0'};
+  --font-caption: {'fontFamily': 'Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif', 'fontSize': '13px', 'fontWeight': 400, 'lineHeight': 1.5, 'letterSpacing': '0'};
+  --font-legal: {'fontFamily': 'Graphik Web, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif', 'fontSize': '11px', 'fontWeight': 400, 'lineHeight': 1.45, 'letterSpacing': '0'};
+  --font-pricing-display: {'fontFamily': 'Means Web, Georgia, Times, Times New Roman, serif', 'fontSize': '52px', 'fontWeight': 400, 'lineHeight': 1.0, 'letterSpacing': '-0.0625rem'};
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-image: 26px;
+  --radius-pill: 9999px;
+}

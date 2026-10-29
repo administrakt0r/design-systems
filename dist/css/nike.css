@@ -1,0 +1,42 @@
+/**
+ * Design System: Nike.com Retail Editorial (theme)
+ * Source: N/A
+ * Description: Monochrome, image-led performance commerce system with Nike Futura display, Helvetica Now utility typography, full-bleed campaign modules and flat product grids.
+ */
+
+:root[data-theme="theme"],
+:root {
+  /* Colors */
+  --color-primary: #111111;
+  --color-secondary: #707072;
+  --color-neutral: #F5F5F5;
+  --color-accent: #111111;
+  --color-accentInverse: #FFFFFF;
+  --color-ink: #111111;
+  --color-canvas: #FFFFFF;
+  --color-canvasMuted: #F5F5F5;
+  --color-surface: #FFFFFF;
+  --color-surfaceMuted: #F5F5F5;
+  --color-surfaceImageFallback: #E5E5E5;
+  --color-border: #E5E5E5;
+  --color-borderStrong: #CACACB;
+  --color-mutedText: #707072;
+  --color-subtleText: #9E9EA0;
+  --color-statusNew: #9E3500;
+  --color-success: #008A00;
+  --color-warning: #B36B00;
+  --color-error: #D43F21;
+
+  /* Typography */
+  --font-display-hero: {'fontFamily': 'Nike Futura ND, Helvetica Now Text Medium, Helvetica, Arial, sans-serif', 'fontSize': '76px', 'fontWeight': 500, 'lineHeight': 1, 'letterSpacing': '0em'};
+  --font-page-title: {'fontFamily': 'Helvetica Now Text Medium, Helvetica, Arial, sans-serif', 'fontSize': '24px', 'fontWeight': 500, 'lineHeight': 1.3};
+  --font-section-title: {'fontFamily': 'Helvetica Now Display Medium, Helvetica, Arial, sans-serif', 'fontSize': '24px', 'fontWeight': 500, 'lineHeight': 1.2};
+  --font-nav-link: {'fontFamily': 'Helvetica Now Text Medium, Helvetica, Arial, sans-serif', 'fontSize': '16px', 'fontWeight': 500, 'lineHeight': 1.5};
+  --font-body: {'fontFamily': 'Helvetica Now Text, Helvetica, Arial, sans-serif', 'fontSize': '16px', 'fontWeight': 400, 'lineHeight': 1.75};
+  --font-utility: {'fontFamily': 'Helvetica Now Text Medium, Helvetica, Arial, sans-serif', 'fontSize': '12px', 'fontWeight': 500, 'lineHeight': 1.5};
+
+  /* Border Radius */
+  --radius-none: 0px;
+  --radius-chip: 18px;
+  --radius-pill: 999px;
+}

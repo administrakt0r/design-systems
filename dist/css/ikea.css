@@ -1,0 +1,53 @@
+/**
+ * Design System: IKEA Global (theme)
+ * Source: N/A
+ * Description: Editorial IKEA global design system: democratic living, bold blue/yellow, flat magazine grid, large lifestyle image cards, and friendly Noto IKEA typography.
+ */
+
+:root[data-theme="theme"],
+:root {
+  /* Colors */
+  --color-primary: #FFDB00;
+  --color-accent: #FFDB00;
+  --color-accent-hover: #F7DA06;
+  --color-brand-blue: #0058A3;
+  --color-brand-blue-dark: #003B7D;
+  --color-ink: #111111;
+  --color-text: #111111;
+  --color-muted: #484848;
+  --color-muted-soft: #818181;
+  --color-canvas: #FFFEFB;
+  --color-surface: #FFFFFF;
+  --color-surface-soft: #F5F5F5;
+  --color-border: #DFDFDF;
+  --color-border-strong: #CCCCCC;
+  --color-overlay: #000000;
+  --color-footer: #000000;
+  --color-on-dark: #FFFFFF;
+  --color-success: #0A8A00;
+  --color-warning: #CA5008;
+  --color-error: #E00751;
+  --color-card-blue-wash: #C4DEE8;
+  --color-quiz-green: #8FB62D;
+  --color-product-orange: #FD600E;
+  --color-product-pink: #FF8AB0;
+
+  /* Typography */
+  --font-display-xl: {'fontFamily': 'Noto IKEA, Noto Sans, Roboto, Open Sans, system-ui, sans-serif', 'fontSize': '72px', 'fontWeight': 700, 'lineHeight': 1.1, 'letterSpacing': '-0.04em'};
+  --font-display-lg: {'fontFamily': 'Noto IKEA, Noto Sans, Roboto, Open Sans, system-ui, sans-serif', 'fontSize': '56px', 'fontWeight': 700, 'lineHeight': 1.08, 'letterSpacing': '-0.029em'};
+  --font-heading-lg: {'fontFamily': 'Noto IKEA, Noto Sans, Roboto, Open Sans, system-ui, sans-serif', 'fontSize': '51px', 'fontWeight': 700, 'lineHeight': 1.08, 'letterSpacing': '-1.48px'};
+  --font-heading-md: {'fontFamily': 'Noto IKEA, Noto Sans, Roboto, Open Sans, system-ui, sans-serif', 'fontSize': '32px', 'fontWeight': 700, 'lineHeight': 1.15, 'letterSpacing': '-0.02em'};
+  --font-heading-sm: {'fontFamily': 'Noto IKEA, Noto Sans, Roboto, Open Sans, system-ui, sans-serif', 'fontSize': '24px', 'fontWeight': 700, 'lineHeight': 1.2, 'letterSpacing': '-0.01em'};
+  --font-body-md: {'fontFamily': 'Noto IKEA, Noto Sans, Roboto, Open Sans, system-ui, sans-serif', 'fontSize': '16px', 'fontWeight': 400, 'lineHeight': 1.5, 'letterSpacing': 0};
+  --font-body-sm: {'fontFamily': 'Noto IKEA, Noto Sans, Roboto, Open Sans, system-ui, sans-serif', 'fontSize': '14px', 'fontWeight': 400, 'lineHeight': 1.5, 'letterSpacing': 0};
+  --font-label: {'fontFamily': 'Noto IKEA, Noto Sans, Roboto, Open Sans, system-ui, sans-serif', 'fontSize': '14px', 'fontWeight': 700, 'lineHeight': 1.2, 'letterSpacing': 0};
+
+  /* Border Radius */
+  --radius-none: 0px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-circle: 9999px;
+  --radius-pill: 9999px;
+}

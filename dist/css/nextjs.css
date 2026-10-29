@@ -1,0 +1,55 @@
+/**
+ * Design System: Next.js (nextjs)
+ * Source: https://nextjs.org/
+ * Description: Developer-first monochrome system with Geist typography, terminal-coded hero moments, hairline borders, pill controls, and a disciplined split between polished launch marketing and dense utility docs.
+ */
+
+:root[data-theme="nextjs"],
+:root {
+  /* Colors */
+  --color-primary: #111111;
+  --color-accent: #000000;
+  --color-accentHover: #1f1f1f;
+  --color-accentPressed: #2a2a2a;
+  --color-ink: #000000;
+  --color-body: #171717;
+  --color-muted: #666666;
+  --color-canvas: #ffffff;
+  --color-surface: #ffffff;
+  --color-surfaceAlt: #fafafa;
+  --color-border: #e5e5e5;
+  --color-borderStrong: #d4d4d4;
+  --color-link: #111111;
+  --color-success: #067647;
+  --color-warning: #b54708;
+  --color-error: #b42318;
+  --color-terminal-bg: #111111;
+  --color-code-bg: #f6f6f6;
+  --color-code-border: #ebebeb;
+  --color-badge-bg: #f3f3f3;
+  --color-spotlight-ring: #f0f0f0;
+  --color-on-primary: #ffffff;
+  --color-on-dark: #ffffff;
+
+  /* Typography */
+  --font-display: {'fontFamily': 'Geist, ui-sans-serif, system-ui, sans-serif', 'fontSize': '64px', 'fontWeight': 600, 'lineHeight': 1.05, 'letterSpacing': '-0.05em'};
+  --font-hero: {'fontFamily': 'Geist, ui-sans-serif, system-ui, sans-serif', 'fontSize': '48px', 'fontWeight': 600, 'lineHeight': 1.08, 'letterSpacing': '-0.04em'};
+  --font-headline-lg: {'fontFamily': 'Geist, ui-sans-serif, system-ui, sans-serif', 'fontSize': '32px', 'fontWeight': 600, 'lineHeight': 1.15, 'letterSpacing': '-0.03em'};
+  --font-title-lg: {'fontFamily': 'Geist, ui-sans-serif, system-ui, sans-serif', 'fontSize': '24px', 'fontWeight': 600, 'lineHeight': 1.2, 'letterSpacing': '-0.025em'};
+  --font-title-md: {'fontFamily': 'Geist, ui-sans-serif, system-ui, sans-serif', 'fontSize': '20px', 'fontWeight': 600, 'lineHeight': 1.25, 'letterSpacing': '-0.02em'};
+  --font-title-sm: {'fontFamily': 'Geist, ui-sans-serif, system-ui, sans-serif', 'fontSize': '16px', 'fontWeight': 600, 'lineHeight': 1.35, 'letterSpacing': '-0.01em'};
+  --font-body: {'fontFamily': 'Geist, ui-sans-serif, system-ui, sans-serif', 'fontSize': '16px', 'fontWeight': 400, 'lineHeight': 1.6, 'letterSpacing': '-0.01em'};
+  --font-label: {'fontFamily': 'Geist, ui-sans-serif, system-ui, sans-serif', 'fontSize': '14px', 'fontWeight': 500, 'lineHeight': 1.4, 'letterSpacing': '-0.01em'};
+  --font-button: {'fontFamily': 'Geist, ui-sans-serif, system-ui, sans-serif', 'fontSize': '14px', 'fontWeight': 500, 'lineHeight': 1.2, 'letterSpacing': '-0.01em'};
+  --font-caption: {'fontFamily': 'Geist, ui-sans-serif, system-ui, sans-serif', 'fontSize': '13px', 'fontWeight': 400, 'lineHeight': 1.45, 'letterSpacing': '0em'};
+  --font-legal: {'fontFamily': 'Geist, ui-sans-serif, system-ui, sans-serif', 'fontSize': '12px', 'fontWeight': 400, 'lineHeight': 1.45, 'letterSpacing': '0em'};
+  --font-code: {'fontFamily': 'Geist Mono, ui-monospace, SFMono-Regular, monospace', 'fontSize': '14px', 'fontWeight': 400, 'lineHeight': 1.55, 'letterSpacing': '0em'};
+  --font-pricing-display: {'fontFamily': 'Geist, ui-sans-serif, system-ui, sans-serif', 'fontSize': '40px', 'fontWeight': 600, 'lineHeight': 1.1, 'letterSpacing': '-0.03em'};
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-pill: 9999px;
+}

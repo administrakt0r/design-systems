@@ -1,0 +1,52 @@
+/**
+ * Design System: Medium (theme)
+ * Source: https://www.medium.com
+ * Description: Editorial publishing system for reading, writing, membership and story discovery. Extracted from the public Medium homepage via Jina text snapshot and the live hero artwork asset; direct browser rendering was blocked by Cloudflare.
+ */
+
+:root[data-theme="theme"],
+:root {
+  /* Colors */
+  --color-primary: #1A8917;
+  --color-accent: #1A8917;
+  --color-accent-hover: #156D12;
+  --color-accent-soft: #E8F3E8;
+  --color-ink: #191919;
+  --color-text: #242424;
+  --color-muted: #6B6B6B;
+  --color-muted-soft: #757575;
+  --color-canvas: #F7F4ED;
+  --color-canvas-alt: #FFFFFF;
+  --color-surface: #FFFFFF;
+  --color-surface-warm: #F2EFE6;
+  --color-border: #E6E6E6;
+  --color-border-strong: #CFCFCF;
+  --color-hero-green: #34AC45;
+  --color-hero-moss: #48704B;
+  --color-success: #1A8917;
+  --color-warning: #B7791F;
+  --color-error: #C94A4A;
+  --color-on-accent: #FFFFFF;
+  --color-on-dark: #FFFFFF;
+
+  /* Typography */
+  --font-display-xl: {'fontFamily': 'GT Super, Georgia, Cambria, Times New Roman, serif', 'fontSize': '106px', 'fontWeight': 400, 'lineHeight': 0.92, 'letterSpacing': '-0.055em'};
+  --font-display-lg: {'fontFamily': 'GT Super, Georgia, Cambria, Times New Roman, serif', 'fontSize': '72px', 'fontWeight': 400, 'lineHeight': 0.96, 'letterSpacing': '-0.045em'};
+  --font-headline: {'fontFamily': 'GT Super, Georgia, Cambria, Times New Roman, serif', 'fontSize': '44px', 'fontWeight': 400, 'lineHeight': 1.08, 'letterSpacing': '-0.035em'};
+  --font-title-lg: {'fontFamily': 'Sohne, Helvetica Neue, Arial, sans-serif', 'fontSize': '24px', 'fontWeight': 500, 'lineHeight': 1.22, 'letterSpacing': '-0.01em'};
+  --font-title-md: {'fontFamily': 'Sohne, Helvetica Neue, Arial, sans-serif', 'fontSize': '18px', 'fontWeight': 500, 'lineHeight': 1.35, 'letterSpacing': '-0.005em'};
+  --font-body-lg: {'fontFamily': 'Sohne, Helvetica Neue, Arial, sans-serif', 'fontSize': '22px', 'fontWeight': 400, 'lineHeight': 1.32, 'letterSpacing': '-0.012em'};
+  --font-body-md: {'fontFamily': 'Sohne, Helvetica Neue, Arial, sans-serif', 'fontSize': '16px', 'fontWeight': 400, 'lineHeight': 1.55, 'letterSpacing': 0};
+  --font-body-sm: {'fontFamily': 'Sohne, Helvetica Neue, Arial, sans-serif', 'fontSize': '14px', 'fontWeight': 400, 'lineHeight': 1.45, 'letterSpacing': 0};
+  --font-meta: {'fontFamily': 'Sohne, Helvetica Neue, Arial, sans-serif', 'fontSize': '13px', 'fontWeight': 400, 'lineHeight': 1.35, 'letterSpacing': 0};
+  --font-button: {'fontFamily': 'Sohne, Helvetica Neue, Arial, sans-serif', 'fontSize': '14px', 'fontWeight': 400, 'lineHeight': 1, 'letterSpacing': 0};
+
+  /* Border Radius */
+  --radius-none: 0px;
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+  --radius-xl: 24px;
+  --radius-pill: 9999px;
+}

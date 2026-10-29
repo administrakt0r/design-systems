@@ -1,0 +1,71 @@
+/**
+ * Design System: Raycast (raycast)
+ * Source: https://www.raycast.com/
+ * Description: Dark, command-palette-native productivity identity with red action accents, glossy inset panels, precise 8px rhythm, huge cinematic serif hero type, and macOS-like utility surfaces.
+ */
+
+:root[data-theme="raycast"],
+:root {
+  /* Colors */
+  --color-primary: #ff6363;
+  --color-accent: #56c2ff;
+  --color-accentHover: #f28c8c;
+  --color-accentPressed: #d72a2a;
+  --color-ink: #ffffff;
+  --color-body: #9c9c9d;
+  --color-muted: #6a6b6c;
+  --color-canvas: #07080a;
+  --color-surface: #111214;
+  --color-surfaceAlt: #0c0d0f;
+  --color-border: #1b1c1e;
+  --color-borderStrong: #434345;
+  --color-link: #ff6363;
+  --color-success: #59d499;
+  --color-warning: #ff9217;
+  --color-error: #ff6363;
+  --color-on-primary: #ffffff;
+  --color-on-dark: #ffffff;
+  --color-grey-50: #e6e6e6;
+  --color-grey-100: #cdcece;
+  --color-grey-200: #9c9c9d;
+  --color-grey-300: #6a6b6c;
+  --color-grey-400: #434345;
+  --color-grey-500: #2f3031;
+  --color-grey-600: #1b1c1e;
+  --color-grey-700: #111214;
+  --color-grey-800: #0c0d0f;
+  --color-grey-900: #07080a;
+  --color-card-border: rgba(255,255,255,0.06);
+  --color-card-highlight: rgba(255,255,255,0.10);
+  --color-glass-nav-start: rgba(17,18,20,0.75);
+  --color-glass-nav-end: rgba(12,13,15,0.90);
+  --color-danger-surface: #2c1617;
+  --color-danger-border: #833637;
+  --color-code-bg: rgba(255,99,99,0.15);
+  --color-focus-ring: rgba(255,255,255,0.50);
+  --color-glow-blue: #0294fe;
+  --color-glow-purple: #9b4dff;
+
+  /* Typography */
+  --font-display: {'fontFamily': 'Instrument Serif, Georgia, serif', 'fontSize': '168px', 'fontWeight': 400, 'lineHeight': 1.0, 'letterSpacing': '-2px'};
+  --font-hero: {'fontFamily': 'Instrument Serif, Georgia, serif', 'fontSize': '86px', 'fontWeight': 400, 'lineHeight': 1.0, 'letterSpacing': '-2px'};
+  --font-headline-lg: {'fontFamily': 'Inter, Inter Fallback, sans-serif', 'fontSize': '48px', 'fontWeight': 600, 'lineHeight': 1.06, 'letterSpacing': '0.02em'};
+  --font-title-lg: {'fontFamily': 'Inter, Inter Fallback, sans-serif', 'fontSize': '32px', 'fontWeight': 600, 'lineHeight': 1.5, 'letterSpacing': '0em'};
+  --font-title-md: {'fontFamily': 'Inter, Inter Fallback, sans-serif', 'fontSize': '24px', 'fontWeight': 500, 'lineHeight': 1.25, 'letterSpacing': '0.2px'};
+  --font-title-sm: {'fontFamily': 'Inter, Inter Fallback, sans-serif', 'fontSize': '20px', 'fontWeight': 500, 'lineHeight': 1.4, 'letterSpacing': '0.2px'};
+  --font-body: {'fontFamily': 'Inter, Inter Fallback, sans-serif', 'fontSize': '16px', 'fontWeight': 400, 'lineHeight': 1.6, 'letterSpacing': '0.2px'};
+  --font-label: {'fontFamily': 'Inter, Inter Fallback, sans-serif', 'fontSize': '14px', 'fontWeight': 500, 'lineHeight': 1.6, 'letterSpacing': '0.2px'};
+  --font-button: {'fontFamily': 'Inter, Inter Fallback, sans-serif', 'fontSize': '14px', 'fontWeight': 500, 'lineHeight': 1.14, 'letterSpacing': '0.2px'};
+  --font-caption: {'fontFamily': 'Inter, Inter Fallback, sans-serif', 'fontSize': '13px', 'fontWeight': 400, 'lineHeight': 1.23, 'letterSpacing': '0.1px'};
+  --font-legal: {'fontFamily': 'Inter, Inter Fallback, sans-serif', 'fontSize': '12px', 'fontWeight': 400, 'lineHeight': 1.5, 'letterSpacing': '0.4px'};
+  --font-code: {'fontFamily': 'JetBrains Mono, Menlo, Monaco, Courier, monospace', 'fontSize': '12px', 'fontWeight': 400, 'lineHeight': 1.5, 'letterSpacing': '0em'};
+  --font-micro-mono: {'fontFamily': 'Geist Mono, ui-monospace, SFMono-Regular, monospace', 'fontSize': '10px', 'fontWeight': 500, 'lineHeight': 1.6, 'letterSpacing': '0.2px'};
+
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-xxl: 20px;
+  --radius-pill: 9999px;
+}

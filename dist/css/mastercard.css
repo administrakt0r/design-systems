@@ -1,0 +1,29 @@
+/**
+ * Design System: Mastercard (mastercard)
+ * Source: https://www.mastercard.com/
+ * Description: Warm editorial magazine aesthetic built from soft stone and signal orange, extreme stadium pill border radiuses, circular orbit imagery, and MarkForMC typography.
+ */
+
+:root[data-theme="mastercard"],
+:root {
+  /* Colors */
+  --color-primary: #141413;
+  --color-accent: #CF4500;
+  --color-accentLight: #F37338;
+  --color-clayBrown: #9A3A0A;
+  --color-canvas: #F3F0EE;
+  --color-surface: #FFFFFF;
+  --color-surfaceRaised: #FCFBFA;
+  --color-ink: #141413;
+  --color-charcoal: #262627;
+  --color-muted: #696969;
+  --color-border: #D1CDC7;
+  --color-link: #3860BE;
+  --color-brandRed: #EB001B;
+  --color-brandYellow: #F79E1B;
+
+  /* Typography */
+  --font-fontFamily: MarkForMC, Inter, -apple-system, sans-serif;
+  --font-headingWeight: 500;
+  --font-bodyWeight: 450;
+}

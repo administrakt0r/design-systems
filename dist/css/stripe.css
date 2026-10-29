@@ -1,0 +1,61 @@
+/**
+ * Design System: Stripe (stripe)
+ * Source: https://stripe.com/
+ * Description: Precision financial-infrastructure identity with violet action color, deep navy ink, angled Stripe geometry, product UI mockups, fine dashed dividers, and dense developer-first modules.
+ */
+
+:root[data-theme="stripe"],
+:root {
+  /* Colors */
+  --color-primary: #533afd;
+  --color-accent: #635bff;
+  --color-accentHover: #4032c8;
+  --color-accentPressed: #2e2b8c;
+  --color-ink: #0a2540;
+  --color-body: #425466;
+  --color-muted: #727f96;
+  --color-canvas: #f6f9fc;
+  --color-surface: #ffffff;
+  --color-surfaceAlt: #fafbfd;
+  --color-border: #e7ecf1;
+  --color-borderStrong: #c1c9d2;
+  --color-link: #635bff;
+  --color-success: #09825d;
+  --color-warning: #bb5504;
+  --color-error: #cd3d64;
+  --color-brandViolet: #533afd;
+  --color-brandVioletSoft: #e8e9ff;
+  --color-signaturePurple: #9966ff;
+  --color-signatureCyan: #11efe3;
+  --color-signatureMagenta: #ff5996;
+  --color-signatureOrange: #ff6118;
+  --color-superNavy: #061b31;
+  --color-footerBg: #0a2540;
+  --color-docsBlue: #5469d4;
+  --color-docsCanvas: #f7fafc;
+  --color-codeInk: #1a1f36;
+  --color-on-primary: #ffffff;
+  --color-on-dark: #ffffff;
+
+  /* Typography */
+  --font-display: {'fontFamily': 'sohne-var, SF Pro Display, Helvetica Neue, Arial, sans-serif', 'fontSize': '92px', 'fontWeight': 400, 'lineHeight': 0.98, 'letterSpacing': '-0.04em'};
+  --font-hero: {'fontFamily': 'sohne-var, SF Pro Display, Helvetica Neue, Arial, sans-serif', 'fontSize': '68px', 'fontWeight': 400, 'lineHeight': 1.02, 'letterSpacing': '-0.035em'};
+  --font-headline-lg: {'fontFamily': 'sohne-var, SF Pro Display, Helvetica Neue, Arial, sans-serif', 'fontSize': '48px', 'fontWeight': 400, 'lineHeight': 1.08, 'letterSpacing': '-0.03em'};
+  --font-title-lg: {'fontFamily': 'sohne-var, SF Pro Display, Helvetica Neue, Arial, sans-serif', 'fontSize': '32px', 'fontWeight': 400, 'lineHeight': 1.25, 'letterSpacing': '-0.02em'};
+  --font-title-md: {'fontFamily': 'sohne-var, SF Pro Display, Helvetica Neue, Arial, sans-serif', 'fontSize': '24px', 'fontWeight': 400, 'lineHeight': 1.33, 'letterSpacing': '-0.01em'};
+  --font-title-sm: {'fontFamily': 'sohne-var, SF Pro Display, Helvetica Neue, Arial, sans-serif', 'fontSize': '18px', 'fontWeight': 500, 'lineHeight': 1.33, 'letterSpacing': '0em'};
+  --font-body: {'fontFamily': 'sohne-var, Helvetica Neue, Arial, sans-serif', 'fontSize': '17px', 'fontWeight': 300, 'lineHeight': 1.6, 'letterSpacing': '0.01em'};
+  --font-label: {'fontFamily': 'sohne-var, Helvetica Neue, Arial, sans-serif', 'fontSize': '13px', 'fontWeight': 500, 'lineHeight': 1.62, 'letterSpacing': '0.015em'};
+  --font-button: {'fontFamily': 'sohne-var, Helvetica Neue, Arial, sans-serif', 'fontSize': '15px', 'fontWeight': 500, 'lineHeight': 1.6, 'letterSpacing': '0.01em'};
+  --font-caption: {'fontFamily': 'sohne-var, Helvetica Neue, Arial, sans-serif', 'fontSize': '13px', 'fontWeight': 300, 'lineHeight': 1.62, 'letterSpacing': '0.015em'};
+  --font-legal: {'fontFamily': 'sohne-var, Helvetica Neue, Arial, sans-serif', 'fontSize': '12px', 'fontWeight': 300, 'lineHeight': 1.5, 'letterSpacing': '0.02em'};
+  --font-pricing-display: {'fontFamily': 'sohne-var, SF Pro Display, Helvetica Neue, Arial, sans-serif', 'fontSize': '44px', 'fontWeight': 500, 'lineHeight': 1.09, 'letterSpacing': '-0.02em'};
+  --font-code: {'fontFamily': 'SourceCodePro, SFMono-Regular, Consolas, monospace', 'fontSize': '13px', 'fontWeight': 500, 'lineHeight': 1.7, 'letterSpacing': '0em'};
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 16px;
+  --radius-pill: 9999px;
+}

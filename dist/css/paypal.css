@@ -1,0 +1,63 @@
+/**
+ * Design System: PayPal (paypal)
+ * Source: https://paypal.com
+ * Description: Trust-first payments identity with assertive PayPal blues, black-and-white clarity, pill-shaped commerce CTAs, compact geometric typography, and modular pay, send, save, checkout, and pricing patterns.
+ */
+
+:root[data-theme="paypal"],
+:root {
+  /* Colors */
+  --color-primary: #003087;
+  --color-accent: #0070E0;
+  --color-accentHover: #005EA6;
+  --color-accentPressed: #001C64;
+  --color-ink: #001435;
+  --color-body: #2C2E2F;
+  --color-muted: #687173;
+  --color-canvas: #FFFFFF;
+  --color-surface: #FFFFFF;
+  --color-surfaceAlt: #FAF8F5;
+  --color-border: #DADDE1;
+  --color-borderStrong: #B7BDC2;
+  --color-link: #0070E0;
+  --color-success: #0A7A3D;
+  --color-warning: #FFB600;
+  --color-error: #D9360B;
+  --color-darkBlue: #003087;
+  --color-middleBlue: #0070E0;
+  --color-rightBlue: #009CDE;
+  --color-deepNavy: #001C64;
+  --color-slateNavy: #001435;
+  --color-venmoBlue: #008CFF;
+  --color-payLaterGold: #FFD140;
+  --color-checkoutYellow: #FFC439;
+  --color-codeCanvas: #F6F8FA;
+  --color-footerBg: #F7F9FA;
+  --color-on-primary: #FFFFFF;
+  --color-on-accent: #FFFFFF;
+  --color-on-yellow: #001435;
+  --color-on-dark: #FFFFFF;
+
+  /* Typography */
+  --font-display: {'fontFamily': 'PayPal Pro, PayPal Open, Helvetica Neue, Arial, sans-serif', 'fontSize': '76px', 'fontWeight': 700, 'lineHeight': 0.95, 'letterSpacing': '-0.045em'};
+  --font-hero: {'fontFamily': 'PayPal Pro, PayPal Open, Helvetica Neue, Arial, sans-serif', 'fontSize': '64px', 'fontWeight': 700, 'lineHeight': 1.0, 'letterSpacing': '-0.04em'};
+  --font-headline-lg: {'fontFamily': 'PayPal Pro, PayPal Open, Helvetica Neue, Arial, sans-serif', 'fontSize': '48px', 'fontWeight': 700, 'lineHeight': 1.08, 'letterSpacing': '-0.035em'};
+  --font-title-lg: {'fontFamily': 'PayPal Pro, PayPal Open, Helvetica Neue, Arial, sans-serif', 'fontSize': '36px', 'fontWeight': 700, 'lineHeight': 1.14, 'letterSpacing': '-0.025em'};
+  --font-title-md: {'fontFamily': 'PayPal Pro, PayPal Open, Helvetica Neue, Arial, sans-serif', 'fontSize': '28px', 'fontWeight': 700, 'lineHeight': 1.2, 'letterSpacing': '-0.018em'};
+  --font-title-sm: {'fontFamily': 'PayPal Pro, PayPal Open, Helvetica Neue, Arial, sans-serif', 'fontSize': '22px', 'fontWeight': 700, 'lineHeight': 1.27, 'letterSpacing': '-0.01em'};
+  --font-body: {'fontFamily': 'PayPal Pro, PayPal Open, Helvetica Neue, Arial, sans-serif', 'fontSize': '18px', 'fontWeight': 400, 'lineHeight': 1.5, 'letterSpacing': '0em'};
+  --font-body-sm: {'fontFamily': 'PayPal Pro, PayPal Open, Helvetica Neue, Arial, sans-serif', 'fontSize': '16px', 'fontWeight': 400, 'lineHeight': 1.5, 'letterSpacing': '0em'};
+  --font-label: {'fontFamily': 'PayPal Pro, PayPal Open, Helvetica Neue, Arial, sans-serif', 'fontSize': '14px', 'fontWeight': 700, 'lineHeight': 1.25, 'letterSpacing': '0.005em'};
+  --font-button: {'fontFamily': 'PayPal Pro, PayPal Open, Helvetica Neue, Arial, sans-serif', 'fontSize': '16px', 'fontWeight': 700, 'lineHeight': 1.25, 'letterSpacing': '0em'};
+  --font-caption: {'fontFamily': 'PayPal Pro, PayPal Open, Helvetica Neue, Arial, sans-serif', 'fontSize': '14px', 'fontWeight': 400, 'lineHeight': 1.45, 'letterSpacing': '0em'};
+  --font-legal: {'fontFamily': 'PayPal Pro, PayPal Open, Helvetica Neue, Arial, sans-serif', 'fontSize': '12px', 'fontWeight': 400, 'lineHeight': 1.45, 'letterSpacing': '0em'};
+  --font-pricing-display: {'fontFamily': 'PayPal Pro, PayPal Open, Helvetica Neue, Arial, sans-serif', 'fontSize': '56px', 'fontWeight': 700, 'lineHeight': 0.95, 'letterSpacing': '-0.045em'};
+  --font-code: {'fontFamily': 'SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace', 'fontSize': '14px', 'fontWeight': 400, 'lineHeight': 1.55, 'letterSpacing': '0em'};
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 28px;
+  --radius-pill: 9999px;
+}

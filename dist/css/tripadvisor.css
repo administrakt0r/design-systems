@@ -1,0 +1,73 @@
+/**
+ * Design System: Tripadvisor (tripadvisor)
+ * Source: https://www.tripadvisor.com/
+ * Description: Travel marketplace system with deep Trip Green ink, neon Trip Brand search actions, pill-shaped controls, dense photo-led recommendation cards, rating bubbles, and flat editorial discovery rails.
+ */
+
+:root[data-theme="tripadvisor"],
+:root {
+  /* Colors */
+  --color-primary: #002B11;
+  --color-accent: #00EB5B;
+  --color-accentHover: #00D352;
+  --color-accentPressed: #1F9448;
+  --color-ink: #002B11;
+  --color-body: #38443A;
+  --color-muted: #768A79;
+  --color-canvas: #FFFFFF;
+  --color-surface: #FFFFFF;
+  --color-surfaceAlt: #F7F7F7;
+  --color-border: #DFE1DF;
+  --color-borderStrong: #768A79;
+  --color-link: #002B11;
+  --color-success: #00AB42;
+  --color-warning: #FFC56F;
+  --color-error: #FFD9DF;
+  --color-businessInk: #000000;
+  --color-businessBody: #333333;
+  --color-businessMint: #00AA6C;
+  --color-businessDeepMint: #005234;
+  --color-businessMintSoft: #C9F2E3;
+  --color-businessLavenderSoft: #F4EFFA;
+  --color-businessStone: #F2F1ED;
+  --color-tripBrand: #00EB5B;
+  --color-tripMoss: #00AB42;
+  --color-tripRewards: #B2FF1A;
+  --color-tripYellow: #FFEF0E;
+  --color-tripAi: #34C457;
+  --color-travelerChoiceGold: #FFC56F;
+  --color-ratingFill: #00AA6C;
+  --color-mapBadgeGreen: #003911;
+  --color-favorite: #FB5184;
+  --color-michelin: #BD2333;
+  --color-scrim: #00000080;
+  --color-on-primary: #F7F7F7;
+  --color-on-accent: #002B11;
+  --color-on-dark: #FFFFFF;
+  --color-on-business-primary: #FFFFFF;
+
+  /* Typography */
+  --font-display: {'fontFamily': '"Trip Sans VF", "Trip Sans", Arial, sans-serif', 'fontSize': '62px', 'fontWeight': 900, 'lineHeight': 1.1, 'letterSpacing': '0em'};
+  --font-hero: {'fontFamily': '"Trip Sans VF", "Trip Sans", Arial, sans-serif', 'fontSize': '54px', 'fontWeight': 900, 'lineHeight': 1.2, 'letterSpacing': '0.02em'};
+  --font-headline-lg: {'fontFamily': '"Trip Sans VF", "Trip Sans", Arial, sans-serif', 'fontSize': '44px', 'fontWeight': 900, 'lineHeight': 1.09, 'letterSpacing': '0em'};
+  --font-headline-md: {'fontFamily': '"Trip Sans VF", "Trip Sans", Arial, sans-serif', 'fontSize': '32px', 'fontWeight': 700, 'lineHeight': 1.19, 'letterSpacing': '0em'};
+  --font-title-lg: {'fontFamily': '"Trip Sans VF", "Trip Sans", Arial, sans-serif', 'fontSize': '28px', 'fontWeight': 800, 'lineHeight': 1.21, 'letterSpacing': '0em'};
+  --font-title-md: {'fontFamily': '"Trip Sans VF", "Trip Sans", Arial, sans-serif', 'fontSize': '20px', 'fontWeight': 800, 'lineHeight': 1.2, 'letterSpacing': '0em'};
+  --font-title-sm: {'fontFamily': '"Trip Sans VF", "Trip Sans", Arial, sans-serif', 'fontSize': '18px', 'fontWeight': 700, 'lineHeight': 1.22, 'letterSpacing': '0em'};
+  --font-body: {'fontFamily': '"Trip Sans VF", "Trip Sans", Arial, sans-serif', 'fontSize': '16px', 'fontWeight': 400, 'lineHeight': 1.5, 'letterSpacing': '0em'};
+  --font-label: {'fontFamily': '"Trip Sans VF", "Trip Sans", Arial, sans-serif', 'fontSize': '14px', 'fontWeight': 700, 'lineHeight': 1.29, 'letterSpacing': '0em'};
+  --font-button: {'fontFamily': '"Trip Sans VF", "Trip Sans", Arial, sans-serif', 'fontSize': '16px', 'fontWeight': 700, 'lineHeight': 1.0, 'letterSpacing': '0em'};
+  --font-caption: {'fontFamily': '"Trip Sans VF", "Trip Sans", Arial, sans-serif', 'fontSize': '14px', 'fontWeight': 400, 'lineHeight': 1.29, 'letterSpacing': '0em'};
+  --font-legal: {'fontFamily': '"Trip Sans VF", "Trip Sans", Arial, sans-serif', 'fontSize': '12px', 'fontWeight': 400, 'lineHeight': 1.5, 'letterSpacing': '0em'};
+  --font-editorial: {'fontFamily': 'Georgia, "Times New Roman", "Century Schoolbook L", serif', 'fontSize': '20px', 'fontWeight': 400, 'lineHeight': 1.2, 'letterSpacing': '0em'};
+  --font-mono: {'fontFamily': '"Trip Sans Mono", Courier, monospace, Arial, sans-serif', 'fontSize': '14px', 'fontWeight': 400, 'lineHeight': 1.4, 'letterSpacing': '0em'};
+  --font-business-display: {'fontFamily': 'TripSansUltra, "Trip Sans VF", "Trip Sans", Arial, sans-serif', 'fontSize': '54px', 'fontWeight': 700, 'lineHeight': 1.19, 'letterSpacing': '0em'};
+  --font-business-title: {'fontFamily': 'TripSansBold, "Trip Sans VF", "Trip Sans", Arial, sans-serif', 'fontSize': '40px', 'fontWeight': 400, 'lineHeight': 1.0, 'letterSpacing': '0em'};
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 28px;
+  --radius-pill: 9999px;
+}

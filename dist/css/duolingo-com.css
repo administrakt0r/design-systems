@@ -1,0 +1,53 @@
+/**
+ * Design System: Duolingo (duolingo-com)
+ * Source: https://www.duolingo.com
+ * Description: Playful, gamified learning system with Duo Green, rounded brand fonts, 3D cartoon illustrations, button bottom-edges, and a modular feature rhythm.
+ */
+
+:root[data-theme="duolingo-com"],
+:root {
+  /* Colors */
+  --color-primary: #58CC02;
+  --color-secondary: #1CB0F6;
+  --color-tertiary: #FFC800;
+  --color-neutral: #FFFFFF;
+  --color-accent: #58CC02;
+  --color-accentHover: #61E002;
+  --color-accentPressed: #46A302;
+  --color-accentShadow: #58A700;
+  --color-ink: #3C3C3C;
+  --color-inkStrong: #4B4B4B;
+  --color-muted: #777777;
+  --color-mutedLight: #AFAFAF;
+  --color-canvas: #FFFFFF;
+  --color-wash: #DDF4FF;
+  --color-surface: #FFFFFF;
+  --color-surfaceAlt: #F7F7F7;
+  --color-border: #E5E5E5;
+  --color-borderStrong: #DADADA;
+  --color-link: #1CB0F6;
+  --color-linkPressed: #1B99D6;
+  --color-navy: #042C60;
+  --color-superNavy: #100F3E;
+  --color-superInk: #000437;
+  --color-footerTextSoft: #D7FFB8;
+  --color-success: #58CC02;
+  --color-warning: #FFC800;
+  --color-error: #FF4B4B;
+  --color-streak: #FF9600;
+  --color-gems: #CE82FF;
+
+  /* Typography */
+  --font-display: {'fontFamily': 'feather, din-round, sans-serif', 'fontSize': '64px', 'fontWeight': 700, 'lineHeight': 1.05, 'letterSpacing': '-0.01em'};
+  --font-headline-lg: {'fontFamily': 'feather, din-round, sans-serif', 'fontSize': '48px', 'fontWeight': 700, 'lineHeight': 1.25, 'letterSpacing': '-0.005em'};
+  --font-hero: {'fontFamily': 'din-round, sans-serif', 'fontSize': '32px', 'fontWeight': 700, 'lineHeight': 1.375, 'letterSpacing': '0em'};
+  --font-body: {'fontFamily': 'din-round, sans-serif', 'fontSize': '17px', 'fontWeight': 500, 'lineHeight': '24px'};
+  --font-label: {'fontFamily': 'din-round, sans-serif', 'fontSize': '15px', 'fontWeight': 700, 'lineHeight': 1, 'letterSpacing': '0.02em'};
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 999px;
+}

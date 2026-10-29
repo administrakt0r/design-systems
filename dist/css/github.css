@@ -1,0 +1,78 @@
+/**
+ * Design System: GitHub (github)
+ * Source: https://github.com/
+ * Description: Developer-native platform identity built from black-and-white GitHub brand contrast, Mona Sans typography, Primer UI density, green CTAs, blue product links, Octicon language, bordered cards, code surfaces, and contribution-grid patterns.
+ */
+
+:root[data-theme="github"],
+:root {
+  /* Colors */
+  --color-primary: #1f883d;
+  --color-accent: #0969da;
+  --color-accentHover: #0860ca;
+  --color-accentPressed: #0550ae;
+  --color-ink: #1f2328;
+  --color-body: #59636e;
+  --color-muted: #818b98;
+  --color-canvas: #ffffff;
+  --color-surface: #f6f8fa;
+  --color-surfaceAlt: #f0f3f6;
+  --color-border: #d1d9e0;
+  --color-borderStrong: #818b98;
+  --color-link: #0969da;
+  --color-success: #1a7f37;
+  --color-warning: #9a6700;
+  --color-error: #d1242f;
+  --color-brandBlack: #000000;
+  --color-brandWhite: #ffffff;
+  --color-marketingInk: #0d1117;
+  --color-marketingMuted: #8b949e;
+  --color-darkCanvas: #0d1117;
+  --color-darkSurface: #161b22;
+  --color-darkSurfaceAlt: #21262d;
+  --color-darkBorder: #30363d;
+  --color-githubGreen: #2da44e;
+  --color-githubGreenHover: #2c974b;
+  --color-githubGreenPressed: #298e46;
+  --color-githubBlue: #0969da;
+  --color-githubPurple: #8250df;
+  --color-githubPink: #bf3989;
+  --color-githubOrange: #bc4c00;
+  --color-githubYellow: #bf8700;
+  --color-contributionNone: #ebedf0;
+  --color-contributionLow: #9be9a8;
+  --color-contributionMedium: #40c463;
+  --color-contributionHigh: #30a14e;
+  --color-contributionMax: #216e39;
+  --color-codeBg: #0d1117;
+  --color-codeText: #c9d1d9;
+  --color-diffAddBg: #dafbe1;
+  --color-diffDeleteBg: #ffebe9;
+  --color-focusRing: #0969da;
+  --color-on-primary: #ffffff;
+  --color-on-dark: #ffffff;
+
+  /* Typography */
+  --font-display: {'fontFamily': 'Mona Sans, Hubot Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '80px', 'fontWeight': 800, 'lineHeight': 1.0, 'letterSpacing': '-0.04em'};
+  --font-hero: {'fontFamily': 'Mona Sans, Hubot Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '64px', 'fontWeight': 800, 'lineHeight': 1.0, 'letterSpacing': '-0.035em'};
+  --font-headline-lg: {'fontFamily': 'Mona Sans, Hubot Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '48px', 'fontWeight': 800, 'lineHeight': 1.08, 'letterSpacing': '-0.03em'};
+  --font-title-lg: {'fontFamily': 'Mona Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '32px', 'fontWeight': 700, 'lineHeight': 1.18, 'letterSpacing': '-0.02em'};
+  --font-title-md: {'fontFamily': 'Mona Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '24px', 'fontWeight': 600, 'lineHeight': 1.25, 'letterSpacing': '-0.012em'};
+  --font-title-sm: {'fontFamily': 'Mona Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '20px', 'fontWeight': 600, 'lineHeight': 1.3, 'letterSpacing': '-0.006em'};
+  --font-body: {'fontFamily': 'Mona Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '16px', 'fontWeight': 400, 'lineHeight': 1.5, 'letterSpacing': '0em'};
+  --font-body-lg: {'fontFamily': 'Mona Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '20px', 'fontWeight': 400, 'lineHeight': 1.5, 'letterSpacing': '-0.005em'};
+  --font-label: {'fontFamily': 'Mona Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '14px', 'fontWeight': 600, 'lineHeight': 1.43, 'letterSpacing': '0em'};
+  --font-button: {'fontFamily': 'Mona Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '14px', 'fontWeight': 600, 'lineHeight': 1.43, 'letterSpacing': '0em'};
+  --font-caption: {'fontFamily': 'Mona Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '12px', 'fontWeight': 400, 'lineHeight': 1.33, 'letterSpacing': '0em'};
+  --font-legal: {'fontFamily': 'Mona Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '12px', 'fontWeight': 400, 'lineHeight': 1.5, 'letterSpacing': '0em'};
+  --font-nav: {'fontFamily': 'Mona Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '16px', 'fontWeight': 600, 'lineHeight': 1.5, 'letterSpacing': '0em'};
+  --font-pricing-display: {'fontFamily': 'Mona Sans, Hubot Sans, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '48px', 'fontWeight': 800, 'lineHeight': 1.05, 'letterSpacing': '-0.03em'};
+  --font-code: {'fontFamily': 'ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace', 'fontSize': '13px', 'fontWeight': 400, 'lineHeight': 1.54, 'letterSpacing': '0em'};
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-pill: 9999px;
+}

@@ -1,0 +1,54 @@
+/**
+ * Design System: Netflix (netflix)
+ * Source: https://www.netflix.com/
+ * Description: Cinematic subscription product system built around black stages, assertive Netflix red actions, dense poster-led rows, heavy sans headlines, and a split between immersive entertainment marketing and crisp utility account flows.
+ */
+
+:root[data-theme="netflix"],
+:root {
+  /* Colors */
+  --color-primary: #E50914;
+  --color-accent: #E50914;
+  --color-accentHover: #C11119;
+  --color-accentPressed: #A80D15;
+  --color-ink: #000000;
+  --color-body: #221F1F;
+  --color-muted: #B3B3B3;
+  --color-canvas: #000000;
+  --color-surface: #161616;
+  --color-surfaceAlt: #232323;
+  --color-border: #808080;
+  --color-borderStrong: #5F5F5F;
+  --color-link: #448EF4;
+  --color-success: #2D8F4E;
+  --color-warning: #B7791F;
+  --color-error: #E50914;
+  --color-hero-overlay: #000000B3;
+  --color-help-canvas: #FFFFFF;
+  --color-help-surface: #F4F4F4;
+  --color-rank-number: #000000;
+  --color-footer-text: #FFFFFFB3;
+  --color-on-primary: #FFFFFF;
+  --color-on-dark: #FFFFFF;
+
+  /* Typography */
+  --font-display: {'fontFamily': '"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif', 'fontSize': '56px', 'fontWeight': 900, 'lineHeight': 1.25, 'letterSpacing': '0em'};
+  --font-hero: {'fontFamily': '"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif', 'fontSize': '56px', 'fontWeight': 900, 'lineHeight': 1.25, 'letterSpacing': '0em'};
+  --font-headline-lg: {'fontFamily': '"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif', 'fontSize': '40px', 'fontWeight': 800, 'lineHeight': 1.25, 'letterSpacing': '0em'};
+  --font-title-lg: {'fontFamily': '"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif', 'fontSize': '32px', 'fontWeight': 700, 'lineHeight': 1.28, 'letterSpacing': '0em'};
+  --font-title-md: {'fontFamily': '"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif', 'fontSize': '24px', 'fontWeight': 500, 'lineHeight': 1.2, 'letterSpacing': '0em'};
+  --font-title-sm: {'fontFamily': '"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif', 'fontSize': '20px', 'fontWeight': 500, 'lineHeight': 1.5, 'letterSpacing': '-0.01em'};
+  --font-body: {'fontFamily': '"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif', 'fontSize': '16px', 'fontWeight': 400, 'lineHeight': 1.5, 'letterSpacing': '0em'};
+  --font-body-strong: {'fontFamily': '"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif', 'fontSize': '16px', 'fontWeight': 500, 'lineHeight': 1.5, 'letterSpacing': '0em'};
+  --font-label: {'fontFamily': '"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif', 'fontSize': '14px', 'fontWeight': 500, 'lineHeight': 1, 'letterSpacing': '0em'};
+  --font-button: {'fontFamily': '"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif', 'fontSize': '24px', 'fontWeight': 500, 'lineHeight': 1, 'letterSpacing': '0em'};
+  --font-utility-button: {'fontFamily': '"Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif', 'fontSize': '14px', 'fontWeight': 700, 'lineHeight': 1.5, 'letterSpacing': '0.01em'};
+  --font-legal: {'fontFamily': '"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif', 'fontSize': '13px', 'fontWeight': 400, 'lineHeight': 1.4, 'letterSpacing': '0em'};
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-pill: 9999px;
+}

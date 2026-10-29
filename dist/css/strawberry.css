@@ -1,0 +1,65 @@
+/**
+ * Design System: Strawberry (strawberry)
+ * Source: https://strawberrybrowser.com/
+ * Description: Warm off-white AI-browser identity with custom Strawberry type, ink-black pill actions, coral micro-markers, rounded cream panels, animated companions, and chat-like browser automation modules.
+ */
+
+:root[data-theme="strawberry"],
+:root {
+  /* Colors */
+  --color-primary: #252522;
+  --color-accent: #F2805D;
+  --color-accentHover: #E97452;
+  --color-accentPressed: #D96544;
+  --color-ink: #252522;
+  --color-body: #252522;
+  --color-muted: #858481;
+  --color-canvas: #FFFCFA;
+  --color-surface: #FFFEFE;
+  --color-surfaceAlt: #F7F2ED;
+  --color-border: #EFE6DC;
+  --color-borderStrong: #E6DBD1;
+  --color-link: #252522;
+  --color-success: #22C55E;
+  --color-warning: #C8B828;
+  --color-error: #EF4343;
+  --color-signature-coral: #F2805D;
+  --color-berry-red: #ED5A31;
+  --color-leaf-gold: #D6C530;
+  --color-golden-olive: #AD9D25;
+  --color-valid-green: #50AD25;
+  --color-feature-blue: #678FFF;
+  --color-feature-lavender: #ACA0DF;
+  --color-subtle-stroke: #EFEBE7;
+  --color-shadow-tint: #0000000D;
+  --color-shadow-tint-strong: #0000001A;
+  --color-on-primary: #FFFCFA;
+  --color-on-dark: #FFFCFA;
+
+  /* Typography */
+  --font-display: {'fontFamily': 'Strawberry Sans, system-ui, -apple-system, sans-serif', 'fontSize': '72px', 'fontWeight': 480, 'lineHeight': 1.1, 'letterSpacing': '-0.04em'};
+  --font-hero: {'fontFamily': 'Strawberry Sans, system-ui, -apple-system, sans-serif', 'fontSize': '52.8px', 'fontWeight': 480, 'lineHeight': 1.1, 'letterSpacing': '-0.04em'};
+  --font-headline-lg: {'fontFamily': 'Strawberry Sans, system-ui, -apple-system, sans-serif', 'fontSize': '56px', 'fontWeight': 480, 'lineHeight': 1.1, 'letterSpacing': '-0.04em'};
+  --font-title-lg: {'fontFamily': 'Strawberry Sans, system-ui, -apple-system, sans-serif', 'fontSize': '40px', 'fontWeight': 480, 'lineHeight': 1.2, 'letterSpacing': '-0.04em'};
+  --font-title-md: {'fontFamily': 'Strawberry Sans, system-ui, -apple-system, sans-serif', 'fontSize': '24px', 'fontWeight': 480, 'lineHeight': 1.4, 'letterSpacing': '-0.03em'};
+  --font-title-sm: {'fontFamily': 'Strawberry Sans, system-ui, -apple-system, sans-serif', 'fontSize': '18px', 'fontWeight': 500, 'lineHeight': 1.4, 'letterSpacing': '-0.03em'};
+  --font-body: {'fontFamily': 'Strawberry Sans, system-ui, -apple-system, sans-serif', 'fontSize': '16px', 'fontWeight': 400, 'lineHeight': 1.6, 'letterSpacing': '0em'};
+  --font-body-lg: {'fontFamily': 'Strawberry Sans, system-ui, -apple-system, sans-serif', 'fontSize': '18px', 'fontWeight': 400, 'lineHeight': 1.4, 'letterSpacing': '-0.0075em'};
+  --font-label: {'fontFamily': 'Strawberry Sans, system-ui, -apple-system, sans-serif', 'fontSize': '14px', 'fontWeight': 500, 'lineHeight': 1.4, 'letterSpacing': '-0.0075em'};
+  --font-button: {'fontFamily': 'Strawberry Sans, system-ui, -apple-system, sans-serif', 'fontSize': '15px', 'fontWeight': 500, 'lineHeight': 1.4, 'letterSpacing': '0em'};
+  --font-nav: {'fontFamily': 'Strawberry Sans, system-ui, -apple-system, sans-serif', 'fontSize': '15.32px', 'fontWeight': 400, 'lineHeight': 1.2, 'letterSpacing': '-0.1px'};
+  --font-caption: {'fontFamily': 'Strawberry Sans, system-ui, -apple-system, sans-serif', 'fontSize': '13px', 'fontWeight': 400, 'lineHeight': 1.4, 'letterSpacing': '-0.0075em'};
+  --font-legal: {'fontFamily': 'Strawberry Sans, system-ui, -apple-system, sans-serif', 'fontSize': '12px', 'fontWeight': 400, 'lineHeight': 1.4, 'letterSpacing': '0em'};
+  --font-pricing-display: {'fontFamily': 'Strawberry Sans, system-ui, -apple-system, sans-serif', 'fontSize': '40px', 'fontWeight': 500, 'lineHeight': 1.2, 'letterSpacing': '-0.04em'};
+  --font-serif-accent: {'fontFamily': 'Strawberry Serif, Georgia, serif', 'fontSize': '40px', 'fontWeight': 500, 'lineHeight': 1.1, 'letterSpacing': '-0.02em'};
+
+  /* Border Radius */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-input: 29px;
+  --radius-bubble: 28px;
+  --radius-pill: 9999px;
+}

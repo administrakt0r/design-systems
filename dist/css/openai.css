@@ -1,0 +1,56 @@
+/**
+ * Design System: OpenAI (openai)
+ * Source: https://openai.com/
+ * Description: Dark, editorial AI brand system with OpenAI Sans, image-first modular news cards, quiet pill actions, flat translucent surfaces, and precise negative-tracked typography.
+ */
+
+:root[data-theme="openai"],
+:root {
+  /* Colors */
+  --color-primary: #ffffff;
+  --color-accent: #f9f9f9;
+  --color-accentHover: #ececec;
+  --color-accentPressed: #dcdcdc;
+  --color-ink: #ffffff;
+  --color-body: #dcdcdc;
+  --color-muted: #b9b9b9;
+  --color-canvas: #000000;
+  --color-surface: #212121;
+  --color-surfaceAlt: #303030;
+  --color-border: #ffffff1f;
+  --color-borderStrong: #ffffff26;
+  --color-link: #8ad1fd;
+  --color-success: #10a37f;
+  --color-warning: #f5a524;
+  --color-error: #ef4444;
+  --color-translucentAction: #ffffff1f;
+  --color-translucentActionHover: #ffffff29;
+  --color-textFaint: #ffffff99;
+  --color-docsCanvas: #131313;
+  --color-chatgptInk: #0d0d0d;
+  --color-ruleDark: #ffffff0d;
+  --color-on-primary: #000000;
+  --color-on-dark: #ffffff;
+
+  /* Typography */
+  --font-display: {'fontFamily': 'OpenAI Sans, Arial, Helvetica, sans-serif', 'fontSize': '59px', 'fontWeight': 500, 'lineHeight': 1.01, 'letterSpacing': '-0.03em'};
+  --font-hero: {'fontFamily': 'OpenAI Sans, Arial, Helvetica, sans-serif', 'fontSize': '60px', 'fontWeight': 500, 'lineHeight': 1.0, 'letterSpacing': '-0.03em'};
+  --font-headline-lg: {'fontFamily': 'OpenAI Sans, Arial, Helvetica, sans-serif', 'fontSize': '46px', 'fontWeight': 500, 'lineHeight': 1.16, 'letterSpacing': '-0.029em'};
+  --font-title-lg: {'fontFamily': 'OpenAI Sans, Arial, Helvetica, sans-serif', 'fontSize': '30px', 'fontWeight': 600, 'lineHeight': 1.4, 'letterSpacing': '-0.02em'};
+  --font-title-md: {'fontFamily': 'OpenAI Sans, Arial, Helvetica, sans-serif', 'fontSize': '22px', 'fontWeight': 500, 'lineHeight': 1.25, 'letterSpacing': '-0.01em'};
+  --font-title-sm: {'fontFamily': 'OpenAI Sans, Arial, Helvetica, sans-serif', 'fontSize': '18px', 'fontWeight': 600, 'lineHeight': 1.35, 'letterSpacing': '-0.01em'};
+  --font-body: {'fontFamily': 'OpenAI Sans, Arial, Helvetica, sans-serif', 'fontSize': '17px', 'fontWeight': 400, 'lineHeight': 1.65, 'letterSpacing': '-0.01em'};
+  --font-body-sm: {'fontFamily': 'OpenAI Sans, Arial, Helvetica, sans-serif', 'fontSize': '14px', 'fontWeight': 400, 'lineHeight': 1.64, 'letterSpacing': '-0.01em'};
+  --font-label: {'fontFamily': 'OpenAI Sans, Arial, Helvetica, sans-serif', 'fontSize': '14px', 'fontWeight': 500, 'lineHeight': 1.0, 'letterSpacing': '0em'};
+  --font-button: {'fontFamily': 'OpenAI Sans, Arial, Helvetica, sans-serif', 'fontSize': '14px', 'fontWeight': 500, 'lineHeight': 1.43, 'letterSpacing': '0em'};
+  --font-caption: {'fontFamily': 'OpenAI Sans, Arial, Helvetica, sans-serif', 'fontSize': '13px', 'fontWeight': 500, 'lineHeight': 1.0, 'letterSpacing': '0em'};
+  --font-legal: {'fontFamily': 'OpenAI Sans, Arial, Helvetica, sans-serif', 'fontSize': '12px', 'fontWeight': 400, 'lineHeight': 1.5, 'letterSpacing': '0em'};
+  --font-code: {'fontFamily': 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace', 'fontSize': '14px', 'fontWeight': 400, 'lineHeight': 1.55, 'letterSpacing': '0em'};
+
+  /* Border Radius */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --radius-xl: 16px;
+  --radius-pill: 9999px;
+}

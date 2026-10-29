@@ -1,0 +1,52 @@
+/**
+ * Design System: Pinterest (theme)
+ * Source: https://www.pinterest.com
+ * Description: Image-centred discovery system with Pinterest Red as a strictly reserved CTA accent, Pin Sans, soft 16px radius, and masonry-style pin cards.
+ */
+
+:root[data-theme="theme"],
+:root {
+  /* Colors */
+  --color-primary: #e60023;
+  --color-accent: #e60023;
+  --color-accentPressed: #cc001f;
+  --color-ink: #000000;
+  --color-inkSoft: #211922;
+  --color-text: #33332e;
+  --color-muted: #62625b;
+  --color-mutedSoft: #91918c;
+  --color-border: #dadad3;
+  --color-borderSoft: #e5e5e0;
+  --color-canvas: #ffffff;
+  --color-surfaceSoft: #fbfbf9;
+  --color-surfaceCard: #f6f6f3;
+  --color-surfaceSecondary: #e5e5e0;
+  --color-surfaceSecondaryPressed: #c8c8c1;
+  --color-surfaceDark: #262622;
+  --color-onAccent: #ffffff;
+  --color-onDark: #ffffff;
+  --color-focus: #435ee5;
+  --color-infoBlue: #2b48d4;
+  --color-success: #103c25;
+  --color-successPale: #c7f0da;
+  --color-warning: #d17711;
+  --color-error: #9e0a0a;
+
+  /* Typography */
+  --font-display-xl: {'fontFamily': 'Pin Sans, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '70px', 'fontWeight': 600, 'lineHeight': 1.1, 'letterSpacing': '-1.2px'};
+  --font-display-lg: {'fontFamily': 'Pin Sans, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '44px', 'fontWeight': 700, 'lineHeight': 1.15, 'letterSpacing': '-0.8px'};
+  --font-heading-xl: {'fontFamily': 'Pin Sans, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '28px', 'fontWeight': 700, 'lineHeight': 1.2, 'letterSpacing': '-1.2px'};
+  --font-heading-lg: {'fontFamily': 'Pin Sans, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '22px', 'fontWeight': 600, 'lineHeight': 1.25, 'letterSpacing': '0px'};
+  --font-body-md: {'fontFamily': 'Pin Sans, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '16px', 'fontWeight': 400, 'lineHeight': 1.4, 'letterSpacing': '0px'};
+  --font-body-strong: {'fontFamily': 'Pin Sans, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '16px', 'fontWeight': 600, 'lineHeight': 1.4, 'letterSpacing': '0px'};
+  --font-body-sm: {'fontFamily': 'Pin Sans, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '14px', 'fontWeight': 400, 'lineHeight': 1.4, 'letterSpacing': '0px'};
+  --font-caption: {'fontFamily': 'Pin Sans, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '12px', 'fontWeight': 500, 'lineHeight': 1.5, 'letterSpacing': '0px'};
+  --font-button: {'fontFamily': 'Pin Sans, Inter, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif', 'fontSize': '14px', 'fontWeight': 700, 'lineHeight': 1, 'letterSpacing': '0px'};
+
+  /* Border Radius */
+  --radius-none: 0px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 32px;
+  --radius-full: 9999px;
+}
